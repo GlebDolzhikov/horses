@@ -422,6 +422,10 @@ hr {
     font-size: 216px;
     transition: 0.3s;
     opacity: 0;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+    padding-bottom: 65px;
 }
 .avatar:hover::after {
     opacity: 0.5;
@@ -635,6 +639,12 @@ Parallax
     height: 50vh;
     background-attachment: fixed;
 }
+#parallax3{
+    background-image: url(../img/bg4.jpg);
+    height: 50vh;
+    background-attachment: fixed;
+}
+
 
 
 /* ===========================
@@ -1057,6 +1067,19 @@ Parallax
     padding-top: 200px;
     padding-bottom: 200px;
 }
+#description p{
+   font-size:  20px;
+}
 .color-text{
   color:   #67b0d1;
+}
+.contacts a{
+    color: #666;
+    font-size: 22px;
+}
+.contacts img{
+    width: 170px;
+    display: block;
+    margin: 20px auto;
+
 }
